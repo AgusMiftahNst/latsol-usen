@@ -97,14 +97,26 @@ export const Navbar: React.FC<NavbarProps> = ({
             })}
           </nav>
 
-          {/* Action Badge */}
-          <div className="flex items-center gap-2">
+          {/* Action Badge & Profile */}
+          <div className="flex items-center gap-3">
+            <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-800/90 border border-slate-700/80 text-xs">
+              <div className="w-7 h-7 rounded-lg bg-gradient-to-tr from-amber-500 to-teal-400 text-slate-950 font-black flex items-center justify-center text-xs">
+                AH
+              </div>
+              <div className="text-left leading-tight">
+                <div className="font-bold text-white text-xs flex items-center gap-1">
+                  Amru Husayni <span className="text-[10px] font-normal text-teal-300">(Usen)</span>
+                </div>
+                <div className="text-[10px] text-amber-300 font-medium">🔥 Calon NIP CPNS 2026</div>
+              </div>
+            </div>
+
             <button
               onClick={() => setActiveTab('cat_sim')}
               className="flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-400 hover:to-emerald-400 text-slate-950 text-xs font-bold shadow-md shadow-teal-500/20 transition-all transform active:scale-95"
             >
               <Clock className="w-3.5 h-3.5" />
-              <span>Mulai Tryout</span>
+              <span>Gas Tryout</span>
             </button>
           </div>
         </div>
