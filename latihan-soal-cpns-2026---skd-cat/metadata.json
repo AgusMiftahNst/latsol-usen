@@ -1,0 +1,6 @@
+{
+  "name": "Latihan Soal CPNS 2026 - SKD CAT",
+  "description": "Aplikasi latihan & simulasi CAT CPNS 2026 (TKD, TWK, TIU, TKP) dengan pembahasan lengkap, AI Tutor Gemini, timer BKN, dan statistik passing grade.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
